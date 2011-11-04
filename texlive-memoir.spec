@@ -1,3 +1,9 @@
+# revision 21638
+# category Package
+# catalog-ctan /macros/latex/contrib/memoir
+# catalog-date 2011-03-06 22:53:00 +0100
+# catalog-license lppl
+# catalog-version 3.6j patch 6.0g
 Name:		texlive-memoir
 Version:	3.6j.6.0g
 Release:	1
@@ -85,6 +91,7 @@ under memoir.
 %doc %{_texmfdistdir}/source/latex/memoir/memoir.ins
 %doc %{_texmfdistdir}/source/latex/memoir/mempatch.dtx
 %doc %{_texmfdistdir}/source/latex/memoir/mempatch.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -95,3 +102,5 @@ under memoir.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
