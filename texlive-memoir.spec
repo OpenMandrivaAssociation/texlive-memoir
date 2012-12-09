@@ -91,3 +91,17 @@ under memoir.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.6j.6.0g-2
++ Revision: 753850
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.6j.6.0g-1
++ Revision: 718989
+- texlive-memoir
+- texlive-memoir
+- texlive-memoir
+- texlive-memoir
+
