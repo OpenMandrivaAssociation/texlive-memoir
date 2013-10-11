@@ -1,12 +1,12 @@
-# revision 21638
+# revision 31044
 # category Package
 # catalog-ctan /macros/latex/contrib/memoir
-# catalog-date 2011-03-06 22:53:00 +0100
+# catalog-date 2013-05-30 13:22:20 +0200
 # catalog-license lppl
-# catalog-version 3.6j patch 6.0g
+# catalog-version 3.7b
 Name:		texlive-memoir
-Version:	3.6j.6.0g
-Release:	2
+Version:	3.7b
+Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
@@ -91,17 +91,3 @@ under memoir.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar makeindex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.6j.6.0g-2
-+ Revision: 753850
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.6j.6.0g-1
-+ Revision: 718989
-- texlive-memoir
-- texlive-memoir
-- texlive-memoir
-- texlive-memoir
-
