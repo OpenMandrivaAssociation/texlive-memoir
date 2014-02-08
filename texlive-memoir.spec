@@ -6,7 +6,7 @@
 # catalog-version 3.6j patch 6.0g
 Name:		texlive-memoir
 Version:	3.6j.6.0g
-Release:	2
+Release:	3
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
