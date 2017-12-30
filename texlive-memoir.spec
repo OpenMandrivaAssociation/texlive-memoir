@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 3.7b
 Name:		texlive-memoir
-Version:	3.7b
-Release:	9
+Version:	3.7f
+Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
