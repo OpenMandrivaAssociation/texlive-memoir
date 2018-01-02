@@ -1,9 +1,3 @@
-# revision 31044
-# category Package
-# catalog-ctan /macros/latex/contrib/memoir
-# catalog-date 2013-05-30 13:22:20 +0200
-# catalog-license lppl
-# catalog-version 3.7b
 Name:		texlive-memoir
 Version:	3.7f
 Release:	1
@@ -47,40 +41,11 @@ under memoir.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/makeindex/memoir/basic.gst
-%{_texmfdistdir}/tex/latex/memoir/mem10.clo
-%{_texmfdistdir}/tex/latex/memoir/mem11.clo
-%{_texmfdistdir}/tex/latex/memoir/mem12.clo
-%{_texmfdistdir}/tex/latex/memoir/mem14.clo
-%{_texmfdistdir}/tex/latex/memoir/mem17.clo
-%{_texmfdistdir}/tex/latex/memoir/mem20.clo
-%{_texmfdistdir}/tex/latex/memoir/mem25.clo
-%{_texmfdistdir}/tex/latex/memoir/mem30.clo
-%{_texmfdistdir}/tex/latex/memoir/mem36.clo
-%{_texmfdistdir}/tex/latex/memoir/mem48.clo
-%{_texmfdistdir}/tex/latex/memoir/mem60.clo
-%{_texmfdistdir}/tex/latex/memoir/mem9.clo
-%{_texmfdistdir}/tex/latex/memoir/memhfixc.sty
-%{_texmfdistdir}/tex/latex/memoir/memoir.cls
-%{_texmfdistdir}/tex/latex/memoir/mempatch.sty
-%doc %{_texmfdistdir}/doc/latex/memoir/Makeidxglo
-%doc %{_texmfdistdir}/doc/latex/memoir/README
-%doc %{_texmfdistdir}/doc/latex/memoir/anvil2.mps
-%doc %{_texmfdistdir}/doc/latex/memoir/memfonts.sty
-%doc %{_texmfdistdir}/doc/latex/memoir/memlays.sty
-%doc %{_texmfdistdir}/doc/latex/memoir/memman.gst
-%doc %{_texmfdistdir}/doc/latex/memoir/memman.ist
-%doc %{_texmfdistdir}/doc/latex/memoir/memman.pdf
-%doc %{_texmfdistdir}/doc/latex/memoir/memman.tex
-%doc %{_texmfdistdir}/doc/latex/memoir/memnoidxnum.tex
-%doc %{_texmfdistdir}/doc/latex/memoir/memsty.sty
-%doc %{_texmfdistdir}/doc/latex/memoir/titlepages.sty
-%doc %{_texmfdistdir}/doc/latex/memoir/trims-example.tex
+%{_texmfdistdir}/makeindex/memoir
+%{_texmfdistdir}/tex/latex/memoir
+%doc %{_texmfdistdir}/doc/latex/memoir
 #- source
-%doc %{_texmfdistdir}/source/latex/memoir/memoir.dtx
-%doc %{_texmfdistdir}/source/latex/memoir/memoir.ins
-%doc %{_texmfdistdir}/source/latex/memoir/mempatch.dtx
-%doc %{_texmfdistdir}/source/latex/memoir/mempatch.ins
+%doc %{_texmfdistdir}/source/latex/memoir
 
 #-----------------------------------------------------------------------
 %prep
