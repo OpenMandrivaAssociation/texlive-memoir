@@ -1,5 +1,5 @@
 Name:		texlive-memoir
-Version:	3.7f
+Version:	3.7g
 Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
