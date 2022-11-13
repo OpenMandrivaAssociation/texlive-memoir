@@ -1,13 +1,13 @@
 Name:		texlive-memoir
-Version:	3.7h
+Version:	64001
 Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -32,12 +32,12 @@ the package automatically if they detect that they are running
 under memoir.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -49,7 +49,8 @@ under memoir.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
