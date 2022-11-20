@@ -1,5 +1,5 @@
 Name:		texlive-memoir
-Version:	64001
+Version:	65040
 Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
