@@ -1,6 +1,6 @@
 Name:		texlive-memoir
-Version:	65040
-Release:	2
+Version:	68004
+Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
