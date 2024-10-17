@@ -3,7 +3,7 @@ Version:	69600
 Release:	1
 Summary:	Typeset fiction, non-fiction and mathematical books
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/memoir
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/memoir
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/memoir.doc.r%{version}.tar.xz
